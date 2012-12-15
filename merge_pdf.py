@@ -18,7 +18,7 @@ else:
     pdf_contents = Popen(["pdftotext", sys.argv[1], "-"], stdout=PIPE).communicate()[0]
     (watermark_text, watermark_text_mid, watermark_text_post) = pdf_contents.partition("\n")
 
-watermark_result = watermark_text_start + watermark_text + ": http://quiteconfused.dyndns.org/" + watermark_text.replace(" ", "_") + ".tar.gz"
+watermark_result = watermark_text_start + watermark_text + ": http://www.google.com/" + watermark_text.replace(" ", "_") + ".tar.gz"
 
 print "Watermark Result: %s" % watermark_text
 
