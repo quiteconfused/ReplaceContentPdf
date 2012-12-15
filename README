@@ -1,0 +1,7 @@
+******Replace_Content********
+Dynamically mutate pdfs to include foreign content based on original information (PDF seeding) when serving content from a proxy(vt_proxy) 
+
+Running:
+
+merge_pdf.py <in_pdf> <out_pdf>
+
